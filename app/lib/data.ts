@@ -31,4 +31,4 @@ export const updatePost = (id: string, title: string, desc: string) => {
 
 export const getById = (id: string) => {
     return posts.find((post) => post.id === id);
-}
+};
